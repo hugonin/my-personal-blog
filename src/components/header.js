@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         <nav>
           <ul role="list" class="nav-list flex-group">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/page-2/">Blog</Link></li>
+            <li><Link to="/blog/">Blog</Link></li>
           </ul>
         </nav>
       </div>
