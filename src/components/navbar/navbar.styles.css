@@ -1,0 +1,24 @@
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+      
+  }
+  
+.nav-list a {
+    color: hsla(0, 0%, 10%, 1);
+    text-decoration: none;
+  }
+  
+.nav-list a:focus,
+.nav-list a:hover {
+    color: hsla(169, 100%, 26%, 1);
+    text-decoration: underline;
+  }
+
+.flex-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap, 1em);
+  }  

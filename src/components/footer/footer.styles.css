@@ -1,0 +1,8 @@
+
+  .site-footer {
+    --logo-color: currentColor;
+    padding: 2em 0;
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(169, 100%, 16%, 1);
+    text-align: center;
+  }

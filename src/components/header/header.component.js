@@ -2,19 +2,17 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+import "./header.styles.css"
+import Navbar from "../navbar/navbar.component"
+
 const Header = ({ siteTitle }) => (
-  <header class="page-header">
-    <div class="container">
-      <div class="page-header__content">
+  <header className="page-header">
+    <div className="container">
+      <div className="page-header__content">
         <div>
         <Link to="/">{siteTitle}</Link>
         </div>
-        <nav>
-          <ul role="list" class="nav-list flex-group">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/blog/">Blog</Link></li>
-          </ul>
-        </nav>
+        <Navbar />
       </div>
     </div>
   </header>
