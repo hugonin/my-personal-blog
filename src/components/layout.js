@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 //import { Link } from "gatsby"
 
 import Header from "../components/header/header.component"
-import Footer from "./footer/footer.component"
+import Footer from "../components/footer/footer.component"
 
 import "./layout.css"
 
